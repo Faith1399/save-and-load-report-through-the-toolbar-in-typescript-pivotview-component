@@ -1,0 +1,49 @@
+@import "../../node_modules/@syncfusion/ej2/material.css";
+.e-save-report::before {
+    content: "\e703";
+    font-size: 30px;
+  }
+  
+  .e-open-report::before {
+    content: "\e65f";
+    font-size: 30px;
+  }
+  
+  #template {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 55px !important;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .icon-container:hover, 
+  .icon-container:focus, 
+  .icon-container:active {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .file-input {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+  }
+  
+  .e-open-report{
+    margin-left: 10px;
+  }
+  
+  .e-save-report,
+  .e-open-report {
+    cursor: pointer;
+    font-size: 14px;
+  }
